@@ -1,0 +1,17 @@
+{
+	"name": "ts-node",
+	"version": "1.0.0",
+	"description": "NodeJS project boilerplate for using Typescript.",
+	"main": "app.ts",
+	"type": "module",
+	"scripts": {
+		"start": "node --experimental-strip-types --watch=./src/* src/app.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^22.2.0"
+	}
+}
